@@ -3,7 +3,7 @@ project(dusk)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(src)
+include_directories(Source)
 
 file(GLOB_RECURSE SRC_FILES Source/*.cpp)
 message(${SRC_FILES})
